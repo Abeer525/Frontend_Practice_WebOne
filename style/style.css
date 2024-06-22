@@ -1,0 +1,658 @@
+/* Abeer Abou Soltaniyeh 32130947 CSCI390 */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	/* outline: 1px dashed red; */
+}
+/* Nav-Bar */
+.nav-bar {
+	position: fixed;
+	background-color: #312e2e;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 20;
+}
+.nav-part-one {
+	display: flex;
+}
+.nav-logo img {
+	width: 7rem;
+}
+.nav-titles {
+	display: flex;
+	flex-direction: column;
+	margin: 0.5rem;
+}
+.nav-title {
+	margin: 1rem;
+}
+
+.title {
+	font-size: 2rem;
+	color: #fff;
+}
+.sub-title {
+	font-size: 1.5rem;
+	color: #fff;
+}
+.part-two-nav {
+	display: flex;
+}
+.fa-globe {
+	font-size: 3rem;
+	color: #fff;
+	margin-top: 3%;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: #fff;
+}
+
+.nav-list li {
+	list-style-type: none;
+	padding: 2rem;
+}
+
+.fa {
+	padding: 2rem;
+	color: #fff;
+}
+
+.fa i {
+	margin: 0%;
+}
+#search-input {
+	border-radius: 10px;
+	color: #fff;
+	background-color: transparent;
+	padding: 0.5rem;
+}
+.search-container {
+	display: flex;
+	align-items: center;
+}
+
+.search-container input[type="text"] {
+	font-size: 1rem;
+	border: 2px solid #fff;
+
+	border-radius: 20px;
+}
+.search-container i {
+	color: #ddd;
+}
+
+/************* */
+/* Solar System */
+.Solar-System {
+	height: 100vh;
+	background-image: url("../pic/solor-system.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.solar-System-header {
+	padding-top: 30rem;
+	padding: 30rem 0 0 3rem;
+}
+.solar-System-header h1 {
+	font-size: 5rem;
+	color: #fff;
+	padding: 2rem;
+}
+.solar-System-header p {
+	font-size: 2rem;
+	color: #fff;
+	padding: 2rem;
+	width: 50%;
+}
+.solar-system-container {
+	display: flex;
+}
+.solor-system-info {
+	margin: 0 2%;
+}
+.solar-system-title {
+	font-size: 3rem;
+	padding: 2rem;
+}
+.solar-system-one {
+	font-size: 1.5em;
+	border: 2px solid #222;
+	width: 100%;
+	padding: 2rem;
+	border-bottom: none;
+}
+.solar-system-two {
+	font-size: 1.5em;
+	width: 100%;
+	padding: 2rem;
+	border: 2px solid #222;
+	border-top: none;
+	margin-bottom: 2rem;
+}
+
+.solar-system-container img {
+	padding: 1.5rem;
+	width: 300px;
+	height: 350px;
+}
+/* solar system cards */
+
+.solar-system-box {
+	color: #fff;
+	background-color: black;
+	padding: 5rem 5rem;
+}
+.solar-system-row-one {
+	display: flex;
+}
+.solar-system-cards-title {
+	font-size: 3.5rem;
+	padding: 4rem;
+}
+.solar-system-card-one {
+	width: 50%;
+	border: 2px solid #fff;
+	background-color: #010101;
+}
+
+.solar-system-card-one h1 {
+	color: #fff;
+	font-size: 5rem;
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+}
+.solar-system-card-one h2 {
+	padding: 1rem;
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+}
+.solar-system-card-one p {
+	padding: 1rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+}
+.solar-system-card-one img {
+	width: 100%;
+}
+.left {
+	border-left: none;
+}
+.right {
+	border-right: none;
+}
+.top {
+	border-top: none;
+}
+.button {
+	border-bottom: none;
+}
+/***************************************/
+.solar-system-spacecraft {
+	display: flex;
+	width: 100%;
+	gap: 7%;
+	padding: 3%;
+}
+.solar-system-spacecraft img {
+	width: 50rem;
+	height: 50rem;
+}
+.spacecraft {
+	width: 125ch;
+}
+.spacecraft h1 {
+	font-size: 3rem;
+	padding: 1rem;
+	font-weight: bold;
+}
+.spacecraft p {
+	font-size: 2rem;
+	padding: 1rem;
+}
+.spacecraft li {
+	font-size: 2rem;
+
+	padding: 2rem 0;
+}
+/*************************************/
+
+/* planets*/
+.planets {
+	height: 100vh;
+	background-image: url("../pic/download.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.planets-header {
+	padding-top: 30rem;
+	padding: 30rem 0 0 3rem;
+}
+.planets-header h1 {
+	font-size: 5rem;
+	color: #fff;
+	padding: 2rem;
+}
+.planets-header p {
+	font-size: 2rem;
+	padding: 2rem;
+	color: #fff;
+	width: 100%;
+}
+.planet-dif {
+	display: flex;
+	padding: 1rem;
+}
+.planet-content h1 {
+	font-size: 3rem;
+	padding: 2rem;
+}
+.planet-content p {
+	font-size: 1.5em;
+	border: 2px solid #222;
+	width: 100%;
+	padding: 3rem;
+}
+.planet-dif img {
+	padding: 1.5rem;
+	width: 300px;
+}
+/* planets cards */
+.planets-cards {
+	background-color: #010101;
+	color: #fff;
+	width: 100%;
+	padding: 2rem;
+}
+.planets-cards-header {
+	font-size: 5rem;
+	padding: 4rem;
+}
+.planet-row {
+	display: flex;
+}
+.planet-card-one,
+.planet-card-two {
+	border: 2px solid #fff;
+	display: flex;
+	width: 50%;
+	margin: 0.5rem;
+}
+.planet-card-one img,
+.planet-card-two img {
+	width: 30%;
+	padding: 2rem;
+}
+.planet-card-one h1,
+.planet-card-two h1 {
+	font-size: 3rem;
+	padding: 2rem;
+}
+.planet-card-one p,
+.planet-card-two p {
+	font-size: 2rem;
+	padding: 2rem;
+}
+.planet-last-info {
+	display: flex;
+	width: 100%;
+	padding: 1rem;
+}
+.planet-last-info img {
+	width: 200%;
+}
+.planet-paragraph-one {
+	margin-top: 10rem;
+}
+.planet-last-info p {
+	font-size: 2rem;
+	padding: 4rem;
+}
+.planet-last-info h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 0 4rem;
+}
+/* moon */
+.moon {
+	background-image: url("../pic/StarryBackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.content {
+	margin-bottom: 5rem;
+	display: flex;
+	color: #fff;
+	width: 100%;
+}
+.pic-moon {
+	position: relative;
+	display: inline-block;
+}
+.pic-moon img {
+	margin-top: 5rem;
+}
+.pic-moon h1 {
+	writing-mode: vertical-rl;
+	letter-spacing: 3rem;
+	font-size: 10rem;
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	padding: 1rem;
+}
+.content-info h2 {
+	font-size: 3rem;
+}
+.content-info {
+	display: flex;
+	flex-direction: column;
+}
+.head-one {
+	font-size: 3rem;
+	margin: auto;
+}
+.paragraph-one {
+	font-size: 2rem;
+	padding: 2rem;
+}
+span {
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #2e9dc6;
+}
+.paragraph-two p {
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+	padding: 3rem;
+}
+.table-heading {
+	font-size: 1.5rem;
+	text-align: center;
+}
+/* table */
+.table {
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: 10rem;
+}
+
+td {
+	font-size: 1.5rem;
+	border: 1px solid #fff;
+	padding: 8px;
+}
+
+.f-data {
+	border-left: none;
+}
+
+.s-data {
+	border-right: none;
+}
+
+.two {
+	background-color: #2e9dc6;
+}
+.tree {
+	font-weight: bold;
+}
+/***************************************/
+
+/******************* slide show ********************/
+
+.slide-title{
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+}
+.slide{
+	margin-left: 20rem ;
+}
+
+.slide p{
+	color: #fff;
+}
+.moon-dif-num{
+	border: 3px solid #fff;
+}
+.dif-num li{
+	color: #fff;
+	font-size: 2rem;
+	padding: 1rem;
+}
+/***************************************/
+/* footer */
+.footer {
+	background-color: #312e2e;
+	padding: 1rem;
+}
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-link {
+	display: inline-block;
+
+	color: #333;
+}
+.far {
+	color: #fff;
+	font-size: 2rem;
+	padding: 1rem;
+	border: 2px solid;
+}
+.fab {
+	color: #fff;
+	font-size: 2rem;
+	padding: 1rem;
+	border: 2px solid;
+}
+.fa-envelope {
+	background-color: #797474;
+}
+.fa-pinterest {
+	background-color: #ff0000;
+}
+.fa-facebook {
+	background-color: #080d9f;
+}
+.fa-twitter {
+	background-color: #2e9dc6;
+}
+.footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #777;
+}
+/******************** responsive *******************/
+@media screen and (max-width: 1024px) {
+	/* nav */
+	.nav-titles {
+		display: none;
+	}
+	#slide-text {
+		font-size: 1rem;
+	}
+	.fa-globe{
+		color:  #312e2e;
+	}
+	.nav-bar{
+	margin: auto;
+	}
+	.nav-list li{
+		font-size: .1rem;
+	}
+	/* Solar System */
+	.solar-system-spacecraft {
+		gap: 10px;
+	}
+	.solar-system-container{
+		display: flex;
+		flex-direction: column;
+	}
+	.solar-system-cards-title{
+	text-align:center;
+}
+	.solar-system-container img{
+		width: 100%;
+		margin: 1rem;
+	}
+    .solar-system-row-one {
+		display: flex;
+		flex-direction: column;
+		width: 150%;
+		align-items:center;
+		
+	}
+	.solar-system-card-one{
+		font-size: 3rem;
+		border:3px solid #fff ;
+       margin-right: 30%;
+
+	}
+	.solar-system-cards{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 4%;
+		
+	}
+	.solar-system-spacecraft{
+		display: flex;
+		flex-direction: column;
+		width:100%
+	}
+	.spacecraft{ 
+		width:90%;
+	}
+	.solar-system-spacecraft li{
+		font-size: 2rem;
+	}
+	.solar-system-spacecraft h1{
+		font-size: 2rem;
+	}
+    .solar-system-spacecraft p{
+		font-size: 2.5rem;
+	}
+	.rocket-img {
+		width: 100%;
+		margin: auto;
+	}
+	
+	
+	/* planet */
+	.planets-header {
+	height: 100vh;
+	background-image: url("../pic/download.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size:cover;
+	}
+	.planet-card-one img,
+	.planet-card-two img {
+		width: 100%;
+		height: 100%;
+	}
+	.planet-card-one,
+	.planet-card-two {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+	}
+	.planet-last-info{
+		display: flex;
+		flex-direction: column;
+	}
+	.planet-last-info img{
+		width:100% ;
+	}
+	/********************/
+	/* moon */
+	.content{
+		width: 100%;
+	
+		
+	}
+	.pic-moon img{
+		display: none;
+	}
+   .pic-moon h1{
+   color:transparent;
+
+	 
+	}
+	.content-info{
+		width: 90%;
+	} 
+    .content-info h2{
+		font-size: 3rem;
+		padding-left: 10rem;
+	}
+    .head-one {
+		width: 100%;
+		padding: 10rem;
+		margin-top: 8rem;
+		
+	
+	}
+	
+    .paragraph-one{
+		font-size: 2rem;
+		padding: 1rem;
+
+	}
+    span{
+		font-size: 2rem;	
+	}
+    .table-section p{
+		font-size: 2rem;
+		padding: 1rem;
+	
+	}
+	.table td{
+		font-size: 2rem;
+		
+	}
+    .paragraph-two p{
+		font-size: 2rem;
+		padding: 1rem;
+	
+	}
+
+    .carousel-container h1{
+		font-size: 3rem;
+	}
+	/********************/
+	/* footer */
+	.footer{
+		padding:2rem;
+	}
+	.social-icons{
+		padding: 1rem;
+	}
+	/********************/
+}
+
